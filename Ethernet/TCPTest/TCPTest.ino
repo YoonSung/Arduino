@@ -24,11 +24,11 @@ byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
 // if you don't want to use DNS (and reduce your sketch size)
 // use the numeric IP instead of the name for the server:
 //IPAddress server(74,125,232,128);  // numeric IP for Google (no DNS)
-char server[] = "192.168.0.4";    // name address for Google (using DNS)
+char server[] = "192.168.0.2";    // name address for Google (using DNS)
 int SERVER_PORT = 3000;
 
 // Set the static IP address to use if the DHCP fails to assign
-IPAddress ip(192, 168, 0, 5);
+IPAddress ip(192, 168, 0, 7);
 
 // Initialize the Ethernet client library
 // with the IP address and port of the server 
